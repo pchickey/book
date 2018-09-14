@@ -3,6 +3,15 @@
 This section will show you how to build and run your first Rust and WebAssembly
 program: a Web page that alerts "Hello, World!"
 
+## Prerequisites
+
+You need to install [rustup](https://rustup.rs) and [cargo-generate](https://github.com/ashleygwilliams/cargo-generate) before starting this tutorial - all other tools are installed automatically along the way.
+
+```text
+curl https://sh.rustup.rs -sSf | sh
+cargo install cargo-generate
+```
+
 ## Clone the Project Template
 
 The project template comes pre-configured with sane defaults, so you can quickly
